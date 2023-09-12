@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sens-serof, serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.wrapper{
+    width: 820px;
+    margin: 0 auto;
+}
+
+.header-container{
+    position: relative;
+    width: 820px;
+    height: 180px;
+}
+.header-bg-img{
+    position: absolute;
+}
+.header-eye-img{
+    position: absolute;
+    margin: 0 0 0 50px;
+}
+
+.both{ clear: both; }
