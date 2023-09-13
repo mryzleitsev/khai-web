@@ -5,6 +5,11 @@ body{
     font-size: 14px;
 }
 
+div{
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper{
     width: 820px;
     margin: 0 auto;
@@ -21,6 +26,69 @@ body{
 .header-eye-img{
     position: absolute;
     margin: 0 0 0 50px;
+}
+.header-hosting{
+    position: absolute;
+    margin: 75px 0 0 300px;
+}
+header p{
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 5px 0 0 270px;
+}
+
+.nav-settings{
+  width: 820px;
+}
+
+.nav-panel{
+    position: relative;
+    width: 820px;
+    height: 16px;
+}
+.nav-bg-img{
+    position: absolute;
+    width: 820px;
+    height: 20px;
+}
+
+nav p{
+    font-family: Corbel;
+    position: absolute;
+    margin: 3px 0 0 10px;
+    color: #c3d8f5;
+    font-size: 11px;
+}
+
+.nav-el{
+    position: absolute;
+    margin: 3px 0 3px 85px;
+}
+
+.right-nav {
+    background-color: #333;
+    overflow: hidden;
+    margin: 0 0 0 500px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-right: 71px;
+}
+.right-nav a {
+    font-family: Corbel;
+    text-decoration: none;
+    color: white;
+    padding: 4px 9px;
+}
+
+.right-nav a:hover {
+    color: black;
 }
 
 .both{ clear: both; }
