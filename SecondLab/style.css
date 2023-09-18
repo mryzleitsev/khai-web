@@ -244,12 +244,62 @@ li {
     top: 4px;
     left: 10px;
     color: white;
-    font-size: 11px;
-    font-family: Arial;
+    font-size: 10px;
+    font-family: Verdana;
 }
 
-.members__bottom-block p, a{
-    text-align: center;
+.info{
+    width: 520px;
+    height: 329px;
+    border-bottom: 3px solid #c3d8f5;
+}
+
+.info__head-block{
+    margin: 3px;
+    position: relative;
+}
+
+.info__bg-element{
+    width: 500px;
+    height: 20px;
+    background: #fca02a;
+    border-radius: 5px;
+    margin: 2px auto;
+    z-index: 1;
+    position: relative;
+
+}
+.info__text-head{
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    color: white;
+    font-size: 11px;
+}
+
+.info__strelka{
+    z-index: 3;
+    align-content: end;
+    position: absolute;
+    top: 3px;
+    left: 475px;
+}
+
+.database__container {
+    width: 100%;
+    padding-left:20px ;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 10px 0 25px 0;
+}
+.database__container img{
+    float: right;
+    margin-left: 10px;
+}
+.header-p-dba{
+    font-weight: bold;
 }
 
 .both{ clear: both; }
