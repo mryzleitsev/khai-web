@@ -24,15 +24,13 @@
                     <p class="nav-text">NAVIGATION</p>
                     <img class="nav-el" src="res/nav-el.png">
                     <div class="right-nav">
-                        <table>
-                            <tr>
-                                <td><p><a href="#">HOSTING</a></p></td>
-                                <td><p><a href="#">SERVICE</a></p></td>
-                                <td><p><a href="#">SUPPORT</a></p></td>
-                                <td><p><a href="#">CONTACT</a> </p></td>
-                                <td><p><img src="res/strelka_menu.png"></p></td>
-                            </tr>
-                        </table>
+                        <ul>
+                                <li><p><a href="#">HOSTING</a></p></li>
+                                <li><p><a href="#">SERVICE</a></p></li>
+                                <li><p><a href="#">SUPPORT</a></p></li>
+                                <li><p><a href="#">CONTACT</a> </p></li>
+                                <li><p><a href="#"><img src="res/strelka_menu.png"></a></p></li>
+                        </ul>
                         <p></p>
                     </div>
                 </div>
@@ -42,10 +40,48 @@
 
         <main>
             <section class="info"></section>
-            <div class="members">
-             
-                <p>MEMBERS</p>
-                <img src="res/strelka_members.png">
+            <div class="members__container">
+                <div class="members__head-block">
+                    <div class="members__bg-element">
+                        <p class="members__text-head">MEMBERS</p>
+                        <img class="members__strelka" src="res/strelka_members.png">
+                    </div>
+                </div>
+                <div class="members__main-content">
+                    <form class="members__login-password">
+                        <p class="enter__text">Enter your Login & Password:</p>
+                        <div class="form-group">
+                            <label class="login__text">Login:</label>
+                            <input type="text" id="loginTextBox" name="loginTextBox">
+                        </div>
+                        <div class="form-group">
+                            <label class="password__text">Password:</label>
+                            <input type="text" id="passwordTextBox" name="passwordTextBox">
+                        </div>
+                        <button class="enter__btn"><img src="res/knopka.png"> <span>ENTER</span></button>
+                    </form>
+                    <a href="#">Forgot Your Password?</a>
+
+                    <div class="members__bottom-block">
+                        <div class="members__bottom-element">
+                            <p class="members__text-bottom">Once you have registered your domain name </p>
+                            <p class="members__text-bottom"> it's easy to Build and Host your own web site. </p>
+                            <a href="#">Click here for Web Hosting.</a>
+                        </div>
+                    </div>
+
+                    <div class="members__bottom-block">
+                        <div class="members__bottom-element">
+                            <p class="members__text-bottom">Want to get your web site listed in the Search </p>
+                            <p class="members__text-bottom">Engines or have your domain name appraised? </p>
+                            <a href="#">Click here for these services.</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
             </div>
         </main>
     </div>

@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, sens-serof, serif;
+    font-family: Verdana, sens-serof, serif;
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -53,6 +53,7 @@ header p{
     position: relative;
     width: 820px;
     height: 16px;
+    margin: 3px 0;
 }
 .nav-bg-img{
     position: absolute;
@@ -78,12 +79,8 @@ nav p{
     margin: 0 0 0 500px;
 }
 
-table {
-    border-collapse: collapse;
-}
-
-td {
-    padding-right: 72px;
+li {
+    padding-right: 73px;
     display: inline;
 }
 .right-nav a {
@@ -98,19 +95,161 @@ td {
 }
 
 .right-nav a:hover {
-    color: black;
+    color: #c3d8f5;
 }
-
-.members{
-    float: left;
-    width: 300px;
-    border-right: 5px solid #c3d8f5;
-
+.right-nav li:last-child{
+   margin-left: -10px;
 }
 
 .info{
     float: right;
     width: 520px;
+}
+
+.members__container{
+    float: left;
+    width: 300px;
+    height: 200px;
+    border-right: 3px solid #c3d8f5;
+    position: relative;
+}
+
+.members__head-block{
+    margin: 3px;
+    position: relative;
+}
+
+.members__bg-element{
+    width: 280px;
+    height: 20px;
+    background: #fca02a;
+    border-radius: 5px;
+    margin: 2px auto;
+    z-index: 1;
+    position: relative;
+
+}
+.members__text-head{
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    color: white;
+    font-size: 11px;
+
+}
+.members__strelka{
+    z-index: 3;
+    align-content: end;
+    position: absolute;
+    top: 3px;
+    left: 255px;
+}
+
+.members__main-content {
+    display: inline;
+    position: relative;
+    text-align: center;
+}
+
+.enter__text {
+    margin: 10px 0 15px 17px;
+    font-size: 11px;
+    font-family: Verdana;
+    text-align: left;
+}
+
+.members__login-password {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+.login__text,
+.password__text {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#loginTextBox,
+#passwordTextBox {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #2d4758;
+    background: #c2d2ea;
+    margin-left: 10px;
+}
+
+.enter__btn {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    margin-right: 7px;
+    margin-bottom: 20px ;
+}
+
+.enter__btn img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.enter__btn span{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.members__main-content {
+    display: block;
+    align-content: center;
+    font-family: Verdana;
+    font-size: 11px;
+    margin-bottom: 15px;
+    position: relative;
+    border-right: 3px solid #c3d8f5;
+    width: 300px;
+    border-bottom: 3px solid #c3d8f5;
+}
+
+.members__head-block{
+    margin: 3px;
+    position: relative;
+}
+
+.members__bottom-block{
+    width: 280px;
+    height: 50px;
+    background: #fca02a;
+    border-radius: 10px;
+    border: 2px solid #2d4758;
+    position: relative;
+    margin: 15px 0px;
+
+}
+.members__bottom-element{
+    text-align: center;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    color: white;
+    font-size: 11px;
+    font-family: Arial;
+}
+
+.members__bottom-block p, a{
+    text-align: center;
 }
 
 .both{ clear: both; }
