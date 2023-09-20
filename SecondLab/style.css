@@ -260,6 +260,7 @@ li {
     width: 520px;
     height: 329px;
     border-bottom: 3px solid #c3d8f5;
+    padding: 5px;
 }
 
 .info__head-block {
@@ -307,6 +308,7 @@ li {
 .database__container img {
     float: right;
     margin-left: 10px;
+    padding-right: 5px;
 }
 
 .header-p-dba {
