@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link href="../reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <form class="lab_three-form" id="myForm">
+        <label for="login">Логин:</label>
+        <input type="text" id="login" name="login" required minlength="5"><br><br>
+
+        <label for="password1">Пароль:</label>
+        <input type="password" id="password1" name="password1" required minlength="5"><br><br>
+
+        <label for="password2">Повторите пароль:</label>
+        <input type="password" id="password2" name="password2" required minlength="5"><br><br>
+
+        <label for="about">О себе:</label><br>
+        <textarea id="about" name="about" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" id ="myBtn" value="Отправить">
+    </form>
+    
+</div>
+</body>
+</html>
