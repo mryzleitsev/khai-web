@@ -10,21 +10,32 @@
 <body>
 <div class="wrapper">
     <form class="lab_three-form" id="myForm">
-        <label for="login">Логин:</label>
-        <input type="text" id="login" name="login" required minlength="5"><br><br>
+        <div class="text_wrapper">
+            <label for="login">Логин:</label>
+            <input type="text" id="login" name="login" required minlength="5">
+        </div>
 
-        <label for="password1">Пароль:</label>
-        <input type="password" id="password1" name="password1" required minlength="5"><br><br>
+        <div class="text_wrapper">
+            <label for="password1">Пароль:</label>
+            <input type="password" id="password1" name="password1" required minlength="5">
+        </div>
 
-        <label for="password2">Повторите пароль:</label>
-        <input type="password" id="password2" name="password2" required minlength="5"><br><br>
+        <div class="text_wrapper">
+            <label for="password2">Повторите пароль:</label>
+            <input type="password" id="password2" name="password2" required minlength="5">
+        </div>
 
-        <label for="about">О себе:</label><br>
-        <textarea id="about" name="about" rows="4" cols="50"></textarea><br><br>
+        <div class="text_wrapper">
+            <label for="about">О себе:</label><br>
+            <textarea id="about" name="about" rows="4" cols="50"></textarea>
+        </div>
 
-        <input type="submit" id ="myBtn" value="Отправить">
+        <input type="submit" id="myBtn" value="Отправить">
+
+        <div id = "error-message" class="error_message"></div>
     </form>
-    
+
+
 </div>
 </body>
 </html>
