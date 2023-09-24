@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <form class="lab_three-form" id="myForm">
+    <form class="lab_three-form" id="myForm" action="redirect.html" method="post">
         <div class="text_wrapper">
             <label for="login">Login:</label>
             <input id="login" minlength="5" name="login" required type="text">
@@ -17,12 +17,12 @@
 
         <div class="text_wrapper">
             <label for="password1">Password:</label>
-            <input id="password1" minlength="5" name="password1" required type="password">
+            <input id="password1" minlength="5" name="password1" required type="password" maxlength="20">
         </div>
 
         <div class="text_wrapper">
             <label for="password2">Confirm password:</label>
-            <input id="password2" minlength="5" name="password2" required type="password">
+            <input id="password2" minlength="5" name="password2" required type="password" maxlength="20">
         </div>
 
         <div class="text_wrapper">
