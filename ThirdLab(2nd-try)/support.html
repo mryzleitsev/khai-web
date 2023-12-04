@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ryzleitsev lab2</title>
+    <link href="../reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="header-container">
+            <img class="header-bg-img" height="180" src="res/HeaderBG.png" width="820">
+            <img class="header-eye-img" height="168" src="res/eye.png" width="205">
+            <img class="header-hosting" height="39" src="res/HOSTING.com.png" width="304">
+            <p>...just use</p>
+        </div>
+        <nav>
+            <img class="nav-settings" src="res/pixels%204x4.png">
+            <img class="nav-settings" src="res/pixels.png">
+            <div class="nav-panel">
+                <img class="nav-bg-img" src="res/back_menu.png">
+                <p class="nav-text">NAVIGATION</p>
+                <img class="nav-el" src="res/nav-el.png">
+                <div class="right-nav">
+                    <ul>
+                        <li><p><a href="index.html">HOSTING</a></p></li>
+                        <li><p><a href="#">SERVICE</a></p></li>
+                        <li><p><a href="support.html">SUPPORT</a></p></li>
+                        <li><p><a href="#">CONTACT</a></p></li>
+                        <li><p><a href="#"><img src="res/strelka_menu.png"></a></p></li>
+                    </ul>
+                    <p></p>
+                </div>
+            </div>
+            <img height="auto" src="res/pixels.png" width="820">
+        </nav>
+    </header>
+
+    <main>
+        <h1 style="text-align: center; margin-top: 20px">To continue please fill form</h1>
+
+        <form class="lab_three-form" id="myForm" action="redirect.html" method="post">
+            <div class="text_wrapper">
+                <label for="login">Login:</label>
+                <input id="login" minlength="5" name="login" required type="text">
+            </div>
+
+            <div class="text_wrapper">
+                <label for="password1">Password:</label>
+                <input id="password1" minlength="5" name="password1" required type="password" maxlength="20">
+            </div>
+
+            <div class="text_wrapper">
+                <label for="password2">Confirm password:</label>
+                <input id="password2" minlength="5" name="password2" required type="password" maxlength="20">
+            </div>
+
+            <div class="text_wrapper">
+                <label for="about">About me:</label><br>
+                <textarea cols="50" id="about" name="about" rows="4"></textarea>
+            </div>
+
+            <input id="myBtn" type="submit" value="Submit">
+
+            <div class="error_message" id="error-message"></div>
+            <div class="correct_message" id="correct-message"></div>
+        </form>
+    </main>
+    <footer>
+        <img alt="" src="res/pixels%204x4.png" width="820">
+        <img class="footer-bg" src="res/back_copyright.png" width="820">
+        <p>© Copyright 2002 WEBHOSTING Corporation. All Rights Reserved. </p>
+    </footer>
+</div>
+</body>
+</html>
