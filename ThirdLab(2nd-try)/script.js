@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Если все проверки пройдены, перенаправляем пользователя
         setTimeout(function () {
-            window.location.href = "redirect.html";
+            window.location.href = "index.html";
         }, 3000);
     });
 });
