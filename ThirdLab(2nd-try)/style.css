@@ -447,3 +447,25 @@ textarea{
 #myBtn{
     background-color: antiquewhite;
 }
+
+.style_sample{
+    clear: both;
+    margin: 15px 0;
+}
+
+.anim{
+    position: relative;
+    height: 200px;
+    content: '';
+    clear: both;
+    margin: 10px;
+}
+
+#anim_img {
+    position: absolute;
+    left: 0;
+    transition: left 2s ease;
+    width: 150px;
+    height: auto;
+}
+

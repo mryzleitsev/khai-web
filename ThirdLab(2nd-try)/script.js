@@ -42,7 +42,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Если все проверки пройдены, перенаправляем пользователя
         setTimeout(function () {
-            window.location.href = "redirect.html";
+            window.location.href = "index.html";
         }, 3000);
     });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    function moveImage() {
+        var container = document.getElementsByClassName('anim')[0]; // Выбираем первый элемент с классом 'anim'
+        var image = document.getElementById('anim_img');
+
+        var currentLeft = parseInt(window.getComputedStyle(image).left);
+
+        if (currentLeft === 0) {
+            image.style.left = container.offsetWidth - image.offsetWidth + 'px';
+            image.style.transform = 'scaleX(1)';
+        } else {
+            image.style.left = 0;
+            image.style.transform = 'scaleX(-1)';
+        }
+    }
+
+    setInterval(moveImage, 2000);
+
 });
